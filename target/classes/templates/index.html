@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"></meta>
+    <title>Educa2 - Plataforma de evaluación alternativa</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+   <!-- <link rel="stylesheet" type="text/css"
+	href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" /> -->
+</head>
+<body>
+    <header>
+        <div id="logo"><img src="./css/images/logo.png"></img></div>
+        <div id="qSomos" class="nav">¿Quienes Somos?</div>
+        <div id="estudiantes" class="nav">Estudiantes</div>
+        <div id="docentes" class="nav">Docentes</div>
+    </header>
+    
+    <div id="content">
+        <div id="contentIzq">
+    <section id="logoC" class="sections">
+        <div class="infoSects">
+            <img id="logocImage" src="./css/images/logoC.png"></img>
+        </div>
+    </section>
+    
+    
+    <section class="sections">
+        <div class="infoSects">
+            <div class="secTitle">Misión</div>
+            <div class="secText" th:text="${mision}"></div>
+        </div>
+    </section>
+     <section class="sections">
+         <div class="infoSects">
+            <div class="secTitle">Visión</div>
+            <div class="secText" th:text="${vision}"></div>
+        </div>
+    </section>
+    </div>
+    <div id="contentDer">
+  <!--  <div id="teamWork">
+        <div class="team floatleft">
+            <div class="fotoTeam"><img src="./css/images/sebastian.png"></img></div>
+            <div class="name">Sebastian Bonilla</div>
+        </div>
+        <div class="team floatright">
+            <div class="fotoTeam"><img src="./css/images/tony.png"></img></div>
+            <div class="name">Anthony Vargas</div>
+        </div>
+    </div> --><!-- Team work -->
+    </div>
+    </div>
+    <footer><div id="FAQtext">FAQ</div></footer>
+</body>
+</html>

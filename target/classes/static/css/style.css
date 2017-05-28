@@ -1,0 +1,151 @@
+
+@font-face {
+    font-family: Gilroy;
+    font-weight: bold;
+    src: url("css/Gilroy-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Gilroy;
+    font-weight: light;
+    src: url("css/Gilroy-light.otf") format("opentype");
+}
+
+body{
+    margin: 0px; 
+    padding: 0;
+    color: white; 
+    font-size: 10pt; 
+    font-family: "Gilroy", light;
+    background-color: #d8dbe2;
+}
+header{
+    background-color: #22333b;
+    width:100%;
+    height:44px;
+}
+footer{
+    background-color: #22333b;
+    width:100%;
+    height:32px;
+    position:fixed;
+    bottom:0;
+    left:0;
+}
+#logo{
+    height:36px;
+    width:36px;
+    float:left;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+.nav{
+    height:44px;
+    width:135px;
+    float:left;
+    text-align: center;
+    line-height: 44px;
+}
+
+#estudiantes{
+    color:#bcbfc1;
+}
+#docentes{
+    color:#bcbfc1;
+}
+    
+#FAQtext{
+    text-align: left;
+    width:40px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+}
+
+#logoC{
+    width:50%;
+    height:150px;
+    
+}
+.sections{
+    width:50%;
+    height:150px;
+    
+}
+
+#logocImage{
+    margin-top: 40px;
+}
+
+.secTitle{
+    color:#222222;
+    font-family: "Gilroy", bold;
+    font-size: 35px;
+}
+.secText{
+    width:550px;
+    color:#222222;
+}
+.infoSects{
+    margin-left: 58px;
+}
+#content{
+    width:100%;
+    height:400px;
+}
+#contentIzq{
+    width:50%;
+    height:400px;
+    float:left;
+}
+#contentDer{
+    width:50%;
+    height:400px;
+    
+    float:left;
+    display: flex;
+}
+#teamWork{
+    float:left;
+    width:400px;
+    height:260px;
+    color:black;
+    font-size: 16px;
+    margin:auto;
+    padding-top: 140px;
+}
+
+.floatleft{
+    float:left;
+}
+.floatright{
+    float:right;
+}
+.team{
+    width:160px;
+    height:200px;
+    
+}
+.fotoTeam{
+    width:160px;
+    height:160px;
+    
+}
+.name{
+    
+    width:160px;
+    height:40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+#teamTitle{
+    width:400px;
+    height:60px;
+    color: #222222;
+    font-family: "Gilroy", bold;
+    font-size: 30px;
+    float:left;
+    margin-left:300px;
+}

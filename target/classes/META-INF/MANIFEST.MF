@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Educa2App
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: anthony
+Implementation-Vendor-Id: com.educa2
+Build-Jdk: 1.8.0_131
+Implementation-URL: http://maven.apache.org
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

@@ -9,9 +9,10 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import config.StompConfig;
 import edu.presentacion.Educa2;
 
-
+@Import({StompConfig.class})
 @SpringBootApplication
 public class Principal {
 	
@@ -35,7 +36,8 @@ public class Principal {
 	public static void main(String[] args) throws InstantiationException, IllegalAccessException {
 		// TODO Auto-generated method stub
 		SpringApplication.run(Principal.class, args);
-		System.out.println("Aplicacion inicializada");	
+		System.out.println("Aplicacion inicializada");
+	
 	}
 
 }
